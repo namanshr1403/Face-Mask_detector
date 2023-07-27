@@ -16,4 +16,6 @@ Step 5: Face Detection
 Use OpenCV's pre-trained face detection model to detect faces in real-time video streams or images. You can use Haar cascades or deep learning-based face detectors like Single Shot Multibox Detector (SSD) or You Only Look Once (YOLO). The detected face regions will be passed to the trained model for classification.
 
 Step 6: Face Mask Classification
-For each detected face, pass the face region through the trained TensorFlow model to classify whether it's "with_mask" or "without_mask." The model will output the probabilities of each class, and a threshold can be set to determine the final prediction.
+For each detected face, pass the face region through the trained TensorFlow model to classify whether it's "with_mask" or "without_mask." The model will output the probabilities of each class, and a threshold can be set to determine the final prediction
+
+![WhatsApp Image 2023-07-27 at 2 19 57 PM](https://github.com/namanshr1403/Face-Mask_detector/assets/66803026/a805f614-1fca-42ad-a092-79b8a5f2af92)
